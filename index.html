@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <header>
+        <p>List of prohibited words:</p>
+    </header>
+    <input type="button" value="Check task 1-4" onclick="Check()">
+    <form class="container">
+        <p><span>Bad words:</span> <span class="bad-words">java,tottenham</span></p>
+        <div class="control">
+            <input type="text" class="input-words" placeholder="word here...">
+            <input type="button" value="Add" class="add">
+            <input type="button" value="Reset" class="reset">
+        </div>
+
+        <textarea class="text-area" cols="30" rows="10" placeholder="text here..."></textarea>
+        <input type="button" value="Cenzor" class="cenzor">
+    </form>
+    <script src="./main.js"></script>
+</body>
+
+</html>
